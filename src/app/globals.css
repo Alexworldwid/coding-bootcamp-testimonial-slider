@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+main {
+  background-image: url('/images/pattern-curve.svg');
+  background-repeat: no-repeat;
+  background-position: left bottom -70px;
+}
+
+#image-container {
+  background-image: url('/images/pattern-bg.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+#content-container {
+  background-image: url('/images/pattern-quotes.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
