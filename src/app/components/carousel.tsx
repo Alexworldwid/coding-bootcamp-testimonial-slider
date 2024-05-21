@@ -82,7 +82,7 @@ const Carousel: React.FC = () => {
                         
                         
                         <span className='bg-white w-[70px] shadow-xl  -bottom-10 rounded-full absolute flex items-center justify-between p-2 gap-x-4 md:left-10'>
-                            <button onClick={prevTestimonial}>
+                            <button aria-label='next button' onClick={prevTestimonial}>
                                 <Image src={prevButton} alt='prev testimonial button' width={200}  />
                             </button>
 
